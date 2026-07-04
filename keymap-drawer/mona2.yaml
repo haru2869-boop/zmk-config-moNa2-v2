@@ -10,30 +10,30 @@ layers:
   - U
   - I
   - O
-  - P
+  - {t: DELETE, h: PRINTSCREEN}
   - A
   - S
   - D
   - F
   - G
-  - F13
+  - ''
   - H
   - J
   - K
   - L
-  - ;
+  - P
   - {t: Z, h: LEFT SHIFT}
   - X
   - C
   - V
   - B
   - ''
-  - F15
+  - ''
   - N
   - M
   - ','
   - .
-  - /
+  - '-'
   - LCTRL
   - LEFT WIN
   - LEFT ALT
@@ -42,7 +42,7 @@ layers:
   - {t: '&to_layer_0 TAB', h: '2', type: held}
   - {t: BACKSPACE, type: held}
   - {t: ENTER, h: '3'}
-  - LEFT ALT
+  - ''
   '1':
   - '1'
   - '2'
