@@ -38,10 +38,10 @@ layers:
   - LEFT WIN
   - LEFT ALT
   - ''
-  - {t: SPACE, h: default}
-  - {t: '&to_layer_0 TAB', h: '1', type: held}
+  - {t: SPACE, h: '1'}
+  - {t: '&to_layer_0 TAB', h: '2', type: held}
   - {t: BACKSPACE, type: held}
-  - {t: ENTER, h: default}
+  - {t: ENTER, h: '3'}
   - ''
   '1':
   - ESCAPE
@@ -81,8 +81,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - BACKSPACE
   - ENTER
   - {t: ▽, type: trans}
@@ -104,9 +104,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RIGHT ALT
+  - RCTRL
+  - RIGHT SHIFT
   - {t: ▽, type: trans}
   - {t: BT, h: '1'}
   - {t: ▽, type: trans}
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LEFT ALT
+  - {t: LEFT ALT, type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -170,7 +170,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
 combos:
 - p: [39, 38]
