@@ -33,6 +33,26 @@
             bindings = <&kp LEFT_SHIFT>;
             key-positions = <11 12>;
         };
+
+        rightctrl {
+            bindings = <&kp RCTRL>;
+            key-positions = <17 18>;
+        };
+
+        rightshift {
+            bindings = <&kp RIGHT_SHIFT>;
+            key-positions = <18 19>;
+        };
+
+        henkann {
+            bindings = <&kp LS(CAPSLOCK)>;
+            key-positions = <10 21>;
+        };
+
+        henkan2 {
+            bindings = <&kp RS(CAPSLOCK)>;
+            key-positions = <10 32>;
+        };
     };
 
     behaviors {
