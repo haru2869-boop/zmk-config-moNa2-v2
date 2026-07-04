@@ -39,8 +39,8 @@ layers:
   - LEFT ALT
   - ''
   - {t: SPACE, h: '1'}
-  - {t: '&to_layer_0 TAB', h: '2', type: held}
-  - {t: BACKSPACE, type: held}
+  - {t: '&to_layer_0 TAB', h: '2'}
+  - BACKSPACE
   - {t: ENTER, h: '3'}
   - ''
   '1':
@@ -173,7 +173,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [39, 38]
-  k: {t: ESC, h: default}
+- p: [13, 12]
+  k: LCTRL
 - p: [11, 12]
-  k: TAB
+  k: LEFT SHIFT
