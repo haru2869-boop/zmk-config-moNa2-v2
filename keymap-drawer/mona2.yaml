@@ -37,7 +37,7 @@ layers:
   - LCTRL
   - LEFT WIN
   - LEFT ALT
-  - ''
+  - {t: '4', h: toggle}
   - {t: SPACE, h: '1'}
   - {t: TAB, h: '2'}
   - BACKSPACE
