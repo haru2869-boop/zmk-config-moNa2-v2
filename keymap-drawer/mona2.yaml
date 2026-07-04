@@ -177,3 +177,11 @@ combos:
   k: LCTRL
 - p: [11, 12]
   k: LEFT SHIFT
+- p: [17, 18]
+  k: RCTRL
+- p: [18, 19]
+  k: RIGHT SHIFT
+- p: [10, 21]
+  k: Sft+CAPSLOCK
+- p: [10, 32]
+  k: Sft+CAPSLOCK
